@@ -89,9 +89,7 @@ def similarity(img1, img2):
 demo = gr.Blocks()  # Create a gradio block
 
 with demo:
-    gr.Markdown("# Token Classification with Spacy")
-    gr.Markdown(
-        "### Enter the text you want to Classify or choose from examples below")
+    gr.Markdown("# Image Similarity using Feature Based Similarity Index")
     with gr.Tabs():
         with gr.TabItem("Examples"):  # If the user wants to use the examples
             with gr.Row():
