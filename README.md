@@ -32,7 +32,7 @@ MIT License
 
 ## Blog
 
-![Medium Blog]()
+[Medium Blog]()
 
 ## Acknowledgements
 
