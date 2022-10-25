@@ -1,6 +1,6 @@
-FROM python:3.9
+FROM jjanzic/docker-python3-opencv:opencv-4.0.0
 COPY ./requirements.txt /tmp/
 RUN pip install -U pip && pip install -r /tmp/requirements.txt
 COPY . ./app
 WORKDIR app
-ENTRYPOINT python deploy.py
+ENTRYPOINT python app.py

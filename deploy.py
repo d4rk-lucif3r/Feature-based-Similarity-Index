@@ -3,14 +3,12 @@ import os
 os.environ["TFY_HOST"] = "https://app.truefoundry.com/"
 os.environ["TFY_API_KEY"] = "<your-api-key>"  # replace this
 
-from servicefoundry import Build, PythonBuild, Resources, Service
+from servicefoundry import Build, DockerFileBuild, Resources, Service
 
 service = Service(
     name="image-similarity",
     image=Build(
-        build_spec=PythonBuild(
-            command="python app.py",
-        ),
+        build_spec=DockerFileBuild(),
     ),
     ports=[{"port": 8080}],
     resources=Resources(memory_limit=1000, memory_request=500,
