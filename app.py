@@ -127,7 +127,7 @@ with demo:
         gr.Markdown(
             "### Made with ❤️ by Arsh using TrueFoundry's Gradio Deployment")
         gr.Markdown(
-            "### [Github Repo]('https://github.com/d4rk-lucif3r/Feature-based-Similarity-Index)")
+            "### [Github Repo](https://github.com/d4rk-lucif3r/Feature-based-Similarity-Index)")
         gr.Markdown(
             '### [Blog]()')
 
