@@ -1,3 +1,4 @@
 gradio
 phasepack
 numpy
+opencv-python
