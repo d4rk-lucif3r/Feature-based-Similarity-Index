@@ -140,4 +140,4 @@ with demo:
         # Submit button for the user input
         submit2.click(fn=fn, inputs=[img3, img4], outputs=[op])
 
-demo.launch(server_port=8081, server_name='0.0.0.0')  # Launch the gradio block
+demo.launch(server_port=8080, server_name='0.0.0.0')  # Launch the gradio block
