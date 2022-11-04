@@ -129,7 +129,7 @@ with demo:
         gr.Markdown(
             "### [Github Repo](https://github.com/d4rk-lucif3r/Feature-based-Similarity-Index)")
         gr.Markdown(
-            '### [Blog]()')
+            '### [Blog](https://lucif3r4.medium.com/image-similarity-using-feature-based-similarity-index-matrix-with-python-c6b05ff5594a)')
 
         def fn(img1, img2):  # Main function
             result = similarity(img1, img2)
