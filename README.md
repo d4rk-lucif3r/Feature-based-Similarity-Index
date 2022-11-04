@@ -32,7 +32,7 @@ MIT License
 
 ## Blog
 
-[Medium Blog]()
+[Medium Blog](https://lucif3r4.medium.com/image-similarity-using-feature-based-similarity-index-matrix-with-python-c6b05ff5594a)
 
 ## Acknowledgements
 
